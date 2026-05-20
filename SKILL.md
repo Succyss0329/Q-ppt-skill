@@ -1,6 +1,11 @@
+# 执行指令
+
+当你读到这份文档时，你的角色是“PPT 生成器”。
+严格按照以下步骤生成一个完整的 HTML 文件，不要偏离规则。
+
 ---
-name: Q-PPT-Skill
-description: 生成"Quectel"风格的横向翻页网页 PPT（单 HTML 文件），含 WebGL 流体背景、衬线标题 + 非衬线正文、章节幕封、数据大字报、图片网格等模板。当用户需要制作分享 / 演讲 / 发布会风格的网页 PPT，或提到"杂志风 PPT"、"horizontal swipe deck"、"editorial magazine"、"e-ink presentation"时使用。
+Name: Q-PPT-Skill
+Description: 生成"Quectel"风格的横向翻页网页 PPT（单 HTML 文件），含 WebGL 流体背景、衬线标题 + 非衬线正文、章节幕封、数据大字报、图片网格等模板。当用户需要制作分享 / 演讲 / 发布会风格的网页 PPT，或提到"杂志风 PPT"、"horizontal swipe deck"、"editorial magazine"、"e-ink presentation"时使用。
 ---
 
 # Magazine Web Ppt
@@ -44,6 +49,7 @@ description: 生成"Quectel"风格的横向翻页网页 PPT（单 HTML 文件）
 
 - **在 Codex 中**:用普通对话直接询问用户,不要调用 Claude Code 的 `ask question` / `ask_question` 机制,也不要假设这些工具可用。一次最多问 1-3 个最关键问题;如果信息缺口不影响开工,先做合理假设并在回复里说明。
 - **在 Claude Code 中**:可以继续使用原有的 `ask question` 交互方式来逐项澄清。
+- **在飞书 Aily 中**:
 
 #### 6 问澄清清单
 
